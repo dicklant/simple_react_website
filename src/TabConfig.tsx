@@ -30,7 +30,7 @@ class TabConfig extends React.Component {
              * the settings selected by the user.
              */
             pages.config.registerOnSaveHandler((saveEvent) => {
-                const baseUrl = `https://simple-react-teams.azurewebsites.net`;
+                const baseUrl = `https://simple-react-teams.azurewebsites.net/tab/7878`;
 
                 pages.config.setConfig({
                     suggestedDisplayName: this.tabName,
