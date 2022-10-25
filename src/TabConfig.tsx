@@ -22,9 +22,9 @@ class TabConfig extends React.Component {
             this.tabName = event.target.value;
         }
 
- /*
         microsoftTeams.app.initialize();
 
+        /*
         microsoftTeams.pages.config.registerOnSaveHandler((saveEvent) => {
             // eslint-disable-next-line no-template-curly-in-string
             const baseUrl = "https://simple-react-teams.azurewebsites.net/"; 
