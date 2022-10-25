@@ -1,5 +1,5 @@
 import React from "react";
-import * as microsoftTeams from "@microsoft/teams-js";
+import { app, pages } from "@microsoft/teams-js";
 
 interface IProps {
 
