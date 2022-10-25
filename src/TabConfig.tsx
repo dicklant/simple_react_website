@@ -75,7 +75,7 @@ class TabConfig extends React.Component {
                 });
         */
         return <div>
-            <h1>Hello config</h1>
+            <h1>Hello CONFIG</h1>
             <p>Nom de l'onglet</p>
             <input placeholder={this.tabName} onChange={onChangeTabname}></input>
         </div>
